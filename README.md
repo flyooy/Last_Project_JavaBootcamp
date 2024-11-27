@@ -93,7 +93,7 @@ License
 This project is licensed under the MIT License.  MIT License
 
 git@github.com:brokensea/trashNothing_29_10_2024.git
-
+git@github.com:flyooy/Last_Project_JavaBootcamp.git
 Deutsch:
 
 Technologiestack
@@ -188,4 +188,5 @@ Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
 
 git@github.com:brokensea/trashNothing_29_10_2024.git
+git@github.com:flyooy/Last_Project_JavaBootcamp.git
 ```
