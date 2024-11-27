@@ -1,0 +1,13 @@
+services:
+  trashNothingdb:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=trashNothingUser
+      - POSTGRES_DB=trashNothingdbs
+    ports:
+      - 5432:5432
+  adminer:
+    image: adminer
+    ports:
+      - 7070:8080

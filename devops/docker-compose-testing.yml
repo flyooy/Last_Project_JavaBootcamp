@@ -1,0 +1,13 @@
+services:
+  trashNothingBackend:
+    depends_on:
+      - trashNothingdb
+    build: 
+      context: ../trashNothing_backend
+      platforms:
+        - "linux/arm64"
+        - "linux/amd64"
+    ports:
+      - 8080:8080
+    env_file:
+      - ../trashNothing_backend/.env.testing

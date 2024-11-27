@@ -1,0 +1,206 @@
+[33mcommit 96460be7780814e49127e1fd1fe0435130e69e34[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Wed Oct 30 10:58:36 2024 +0100
+
+    Update Produkt Controller added
+
+[33mcommit 41f292e46403b6daba1b4f78ea6f6ce11f7da3dc[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Wed Oct 30 10:39:14 2024 +0100
+
+    @Service added
+
+[33mcommit ea6dfa168ccbe67f25a138b0f05983f588c1ccf9[m
+Merge: 1e2dc6f 1d617b4
+Author: flyooy <flyooy@gmail.com>
+Date:   Wed Oct 30 10:33:58 2024 +0100
+
+    Resolved merge conflict in BenutzerController.java
+
+[33mcommit 1e2dc6f2d0c1575d1ef89a81f7c525c0df59942b[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Wed Oct 30 10:27:38 2024 +0100
+
+    certs keys created
+
+[33mcommit 1d617b4c426a3548415c2aadf62afc07a5992c03[m
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Wed Oct 30 10:08:55 2024 +0100
+
+    VerkaufteProdukte B testbereit
+
+[33mcommit 63fa81c046320fd050ad3f574b08e7fd76d57c35[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Wed Oct 30 09:53:31 2024 +0100
+
+    fix conflict
+
+[33mcommit fce323372ca5d6b0e25fbc6aa7b0711707dc297a[m
+Merge: 98bd25d a3ee9a7
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Wed Oct 30 09:44:05 2024 +0100
+
+    Merge remote-tracking branch 'origin/dev' into dev
+    
+    # Conflicts:
+    #       trashNothing_backend/src/main/java/de/sp/trashNothing_backend/mapper/ProduktMapper.java
+
+[33mcommit 98bd25d29f063b33ba8a737152df515b9db9c761[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Wed Oct 30 09:37:48 2024 +0100
+
+    add ProduktEinkaufenRequestDTO, ProduktEinkaufenResponseDTO, ProduktMapper
+
+[33mcommit a3ee9a70be3faeaebdebba14514ed1e09015020b[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Wed Oct 30 09:34:29 2024 +0100
+
+    Done with create new Produkt
+
+[33mcommit 4283f9c446f7d479ab7139ea352f6de8d8e700ec[m
+Merge: 69e0cb2 ede347f
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Wed Oct 30 08:59:29 2024 +0100
+
+    Merge branch 'dev' of https://github.com/brokensea/trashNothing_29_10_2024 into dev
+
+[33mcommit 69e0cb22aeebab9069e8f22a8fb99b9db1412dc5[m
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Wed Oct 30 08:56:15 2024 +0100
+
+    marcusBranch auf dev gemergt
+
+[33mcommit ede347f31c7dcb4340e777f80a1d18a7b01668ba[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 9c374a7 98268e9
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Wed Oct 30 08:45:51 2024 +0100
+
+    Merge branch 'dev' of github.com:brokensea/trashNothing_29_10_2024 into dev
+
+[33mcommit 9c374a7d9c67c927865bbeffe85deb63c7a5d066[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Wed Oct 30 08:45:05 2024 +0100
+
+    change Email to unique fix Produkt bescreibung zu 1000size
+
+[33mcommit 1732f5911daa32d50b58d85d60e8ead6c0a6c857[m
+Merge: 98268e9 8c3f5e5
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Tue Oct 29 22:10:39 2024 +0100
+
+    Merge branch 'marcusBranch_gekaufteArtikel' into dev
+    
+    # Conflicts:
+    #       trashNothing_backend/src/main/java/de/sp/trashNothing_backend/controllers/ProduktController.java
+    #       trashNothing_backend/src/main/java/de/sp/trashNothing_backend/repositories/BenutzerRepository.java
+    #       trashNothing_backend/src/main/java/de/sp/trashNothing_backend/repositories/ProduktRepository.java
+    #       trashNothing_backend/src/main/java/de/sp/trashNothing_backend/services/ProduktService.java
+
+[33mcommit 8c3f5e536fe7b49f9f57ef9e1386c8c07340a749[m[33m ([m[1;31morigin/marcusBranch_gekaufteArtikel[m[33m)[m
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Tue Oct 29 22:04:32 2024 +0100
+
+    start gekaufteProdukteListe
+
+[33mcommit 98268e9030c9cca695b93454321ea506c9473a55[m
+Merge: 3ee5b02 266cc54
+Author: brokensea <maksmadeng@gmail.com>
+Date:   Tue Oct 29 16:21:55 2024 +0100
+
+    Merge pull request #3 from brokensea/main
+    
+    Merge pull request #2 from brokensea/dev
+
+[33mcommit 3ee5b02e147933f09a41faac31f0cac0cafc1c17[m
+Merge: fe89510 7e0e2f4
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Tue Oct 29 16:19:57 2024 +0100
+
+    Merge branch 'dev' of github.com:brokensea/trashNothing_29_10_2024 into dev
+
+[33mcommit fe89510c291f4b3c55d6a3eb63c3197c843205b5[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Tue Oct 29 16:19:44 2024 +0100
+
+    add config Auth Funktion modification of Benutzer Entity add TokenService
+
+[33mcommit 7e0e2f44069b91ccb19feca957f5f814b9117064[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 16:19:38 2024 +0100
+
+    added wunschset mapper, end with wunschset controller
+
+[33mcommit 266cc5415c6105ac8f4136eecc812e548c19310a[m
+Merge: a9189bb 1c58a73
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 16:10:20 2024 +0100
+
+    Merge pull request #2 from brokensea/dev
+    
+    Dev merge
+
+[33mcommit 1c58a73dbf17c7a956095708ba750be643edc2a0[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 16:09:44 2024 +0100
+
+    Added WunsetController with DTO
+
+[33mcommit 7964c5fddd10083d143df00efc4c51d562a57b09[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 14:25:57 2024 +0100
+
+    createProdukt without DTO
+
+[33mcommit 08def40d28d012fdfce5d3e1ae2a8881940346be[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 14:21:07 2024 +0100
+
+    Create ProduktRepository/Service/Controller
+
+[33mcommit cd5d813a85c8f09ccb86ea43dee21740cc2452fa[m
+Merge: 2c39675 a9189bb
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Tue Oct 29 13:54:31 2024 +0100
+
+    Merge branch 'main' of https://github.com/brokensea/trashNothing_29_10_2024
+
+[33mcommit a9189bb3c4fbd71da6c377432850eac2d2871566[m[33m ([m[1;31morigin/maksBranch[m[33m, [m[1;32mmaksBranch[m[33m)[m
+Merge: 3103715 46cb6ce
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Tue Oct 29 13:41:40 2024 +0100
+
+    Merge branch 'main' of github.com:brokensea/trashNothing_29_10_2024 into maksBranch
+
+[33mcommit 3103715e3df018c92e2368580714db0af69aa1c4[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Tue Oct 29 13:37:12 2024 +0100
+
+    add Entity first version
+
+[33mcommit 46cb6ce5adb566e929d99f842f4bcacf6c982a5c[m
+Merge: e3d3a80 7338525
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 13:21:11 2024 +0100
+
+    Merge pull request #1 from brokensea/dev
+    
+    Components and pages created.
+
+[33mcommit 7338525c11a2291e78356b7326966ce71dfa7819[m
+Author: flyooy <flyooy@gmail.com>
+Date:   Tue Oct 29 13:19:32 2024 +0100
+
+    Components and pages created.
+    In Main.jsx created DOM for navigation.
+
+[33mcommit 2c3967571774b5561627b87992db70f0fd03ed0c[m
+Author: marcusslomka <marcus.slomka@googlemail.com>
+Date:   Tue Oct 29 10:15:11 2024 +0100
+
+    testpush
+
+[33mcommit e3d3a80ea4e3152377000c5ed89e201d6adb348a[m[33m ([m[1;31morigin/yan[m[33m, [m[1;31morigin/marcusBranch[m[33m)[m
+Author: lalagum <maksmadeng@gmail.com>
+Date:   Tue Oct 29 10:08:06 2024 +0100
+
+    init
